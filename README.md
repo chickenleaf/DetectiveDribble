@@ -159,6 +159,7 @@ if prev_est_vel[1] < 0:
   - Code Profiling: Identify bottlenecks using profiling tools and optimize those sections.   
 
 ## Code Documentation:
+DocStrings has been used extensively for code documentation.
 - Each function is documented with clear explanations of parameters, return types, and purpose.
 - Inline comments provide detailed explanations of key steps and logic within functions.
 - Descriptive variable names enhance code readability and maintainability.
