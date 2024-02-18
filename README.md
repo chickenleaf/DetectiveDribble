@@ -1,6 +1,16 @@
 # Documentation:
 
-The `DetectiveDribble` class is designed to detect and track a basketball in a given video file. It utilizes computer vision techniques provided by OpenCV to locate the basketball, detect/count dribbles, estimate its velocity and frequency accurately in real-time.
+The `DetectiveDribble` class is designed to detect and track a basketball in a given video file. It utilizes computer vision techniques provided by OpenCV to:
+ 1. locate the basketball
+    - `def track_basketball()`
+ 2. detect/count dribbles
+     - `bounce_count`
+ 3. estimate its velocity
+     - `def calculate_dribble_velocity()`
+ 4. frequency accurately in real-time
+     - `def calculate_dribble_frequency()`
+ 5. detect dribble direction
+     - `def detect_dribble_direction()`
 
 ## Analysis Methods And Algorithms:
 
